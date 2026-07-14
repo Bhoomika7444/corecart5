@@ -1,0 +1,6 @@
+{
+  "name": "CoreCart",
+  "description": "Database-Driven Multi-Tenant E-Commerce Engine",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
