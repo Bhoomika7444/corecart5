@@ -764,7 +764,12 @@ class Database {
         user: process.env.SQL_USER,
         password: process.env.SQL_PASSWORD,
         database: process.env.SQL_DB_NAME,
+        port: 5432,
+        ssl: {
+          rejectUnauthorized: false,
+        },
         connectionTimeoutMillis: 15000,
+
       });
 
       console.log("Connecting to PostgreSQL...");
